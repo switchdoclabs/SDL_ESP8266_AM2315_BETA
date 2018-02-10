@@ -4,7 +4,7 @@ SDL  Febrarury 2018
 It will show the error count and why:
 
 badCRCReads = reads witha bad CRC from the AM2315<BR>
-badSpikeReads = Good CRC, but temperature spike found (greater than 15.9 degrees C in a single read)<BR>
+badSpikeReads = Good CRC, but temperature spike found (greater than 15.0 degrees C in a single read)<BR>
 badMessageReads = good CRC, but bad message Format<BR>
 
 Example:

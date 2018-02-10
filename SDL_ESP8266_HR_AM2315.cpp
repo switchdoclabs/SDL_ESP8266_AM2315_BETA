@@ -298,7 +298,7 @@ int SDL_ESP8266_HR_AM2315::internalReadData(float * dataArray)
 
 
 
-#define TEMPERATUREBAND 15.9
+#define TEMPERATUREBAND 15.0
 
       if (lastGoodTemp > (TEMPERATUREBAND + temp)) // too high compared to last good value
       {
